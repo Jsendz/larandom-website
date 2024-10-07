@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 585 174.8">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24px;
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+        font-family: LoosExtended-Black, 'Loos Extended';
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 85px;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(37.1 117.7)"><tspan x="0" y="0" xml:space="preserve">RAND      M</tspan></text>
+  <text class="cls-1" transform="translate(42.6 54.1)"><tspan x="0" y="0">LA</tspan></text>
+  <image width="1070" height="1071" transform="translate(348.9 43.1) scale(0)" xlink:href="../BW/La Random LOGO BW ONLY SMILEY.png"/>
+</svg>
