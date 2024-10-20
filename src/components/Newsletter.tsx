@@ -45,19 +45,19 @@ const Newsletter = () => {
     <div className="bg-gray-100 p-8 rounded-lg shadow-lg max-w-md mx-auto">
       {submitted ? (
         <div className="text-center">
-          <h2 className="text-2xl font-semibold mb-2">Thank you for subscribing!</h2>
-          <p className="text-gray-600">You will receive our latest news and updates soon.</p>
+          <h2 className="text-2xl font-semibold mb-2 text-slate-800">Subscriute!</h2>
+          <p className="text-gray-600">Rep noticies Random.</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-4">
-          <h2 className="text-2xl font-semibold">Subscribe to our newsletter</h2>
-          <p className="text-gray-600">Stay updated with the latest news and offers.</p>
+          <h2 className="text-2xl font-semibold text-slate-800">Subscriute!</h2>
+          <p className="text-gray-600">Rep noticies Random</p>
           <div>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
+              placeholder="email"
               className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring focus:ring-blue-300"
             />
             {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
@@ -66,7 +66,7 @@ const Newsletter = () => {
             type="submit"
             className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300"
           >
-            Subscribe
+            Suscribete
           </button>
         </form>
       )}
