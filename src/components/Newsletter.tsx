@@ -45,13 +45,13 @@ const Newsletter = () => {
     <div className="bg-gray-100 p-8 rounded-lg shadow-lg max-w-md mx-auto">
       {submitted ? (
         <div className="text-center">
-          <h2 className="text-2xl font-semibold mb-2 text-slate-800">Subscriu-te!</h2>
-          <p className="text-gray-600">Rep noticies Random.</p>
+          <h2 className="text-2xl font-semibold mb-2 text-slate-800">Gracies!</h2>
+          <p className="text-gray-600">Ja ets part de LaRandom!</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-4">
           <h2 className="text-2xl font-semibold text-slate-800">Subscriu-te!</h2>
-          <p className="text-gray-600">Rep noticies Random</p>
+          <p className="text-gray-600">Rep noticies Random.</p>
           <div>
             <input
               type="email"
