@@ -58,7 +58,7 @@ const Newsletter = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="email"
-              className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring focus:ring-blue-300"
+              className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring focus:ring-blue-300 text-slate-800"
             />
             {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
           </div>
